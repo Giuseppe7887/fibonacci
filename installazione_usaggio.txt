@@ -1,0 +1,46 @@
+## INSTALLAZIONE GUIDATA
+
+# 1 scarica l'installer
+
+# 2 esegui l'installer, si troverà quasi sicuramente nella cartella /downloads, tieni tutti i parametri di default.
+
+# 3 dopo averlo installato verrà creata una cartella "fibonacci" sul desktop
+
+# 4 aprila e clicca in un punto qualsiasi della cartella con il tasto destro del mouse e clicca su "Apri nel terminale"
+
+# 5 adesso il software è pronto per l'uso
+
+
+## MODALITA D'USO
+
+rimanendo nel terminale puoi usare varie flag per comunicare la tua intenzione -m, -c, -s, -w
+
+-m = per creare una sequenza
+-w = per sriverla in un file 
+-c = per controllare una sequenza
+-s = per impostare un separatore
+
+## ESEMPI D'USO (importante scrivere ./fibonacci prima di ogni comando)
+
+
+./fibonacci -h 
+per aprire un menu di aiuto
+
+
+./fibonacci -m 4
+creazione sequenza lunghezza 4, output: [1,1,2,3]
+
+
+
+./fibonacci -m 6 -w
+creazione sequenza lunghezza 6:  [1,1,2,3,5,8] + salvataggio sequenza nel file /sequenze
+
+
+
+./fibonacci -c 1,1,2,4
+controllo sequenza, output: is not fibonacci
+
+
+
+./fibonacci -c 1-1-2-3-5-8-13 -s -
+se si usa un separatore diverso dalla virgola bisogna specificarlo come in questo caso -
